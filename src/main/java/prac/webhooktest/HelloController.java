@@ -11,4 +11,10 @@ public class HelloController {
     {
         return "마지막 test";
     }
+
+    @GetMapping("/test")
+    public String test()
+    {
+        return "test!!";
+    }
 }
